@@ -4,7 +4,3 @@ phases:
         commands:
           - echo Hello World!
           
-artifacts:
-    files:
-      - '__init__.py'
-      - 'HelloWorld.py'
