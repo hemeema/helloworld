@@ -1,0 +1,10 @@
+version: 0.2
+phases:
+    build:
+        commands:
+          - echo Hello World!
+          - aws s3 cp ./HWTemplate.yaml s3://rigd-tools-east/
+artifacts:
+    files:
+      - '__init__.py'
+      - 'HelloWorld.py'
